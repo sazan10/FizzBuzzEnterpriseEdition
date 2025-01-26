@@ -34,7 +34,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: traces
-        path: './traces/*'
+        path: './FizzBuzzEnterpriseEdition/FizzBuzzEnterpriseEdition/traces/*'
     - name: LIst files
       run: | 
         pwd
