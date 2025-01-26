@@ -37,5 +37,4 @@ jobs:
         path: './traces/*'
     - name: LIst files
       run: | 
-        cd traces
         ls -l 
