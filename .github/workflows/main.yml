@@ -17,9 +17,6 @@ jobs:
       with:
         ref: 4922c077c07a3744ae67ee8a932786f15bf57411
   
-    - name: Build project with JDK 17
-      run: mvn clean install -DskipTests
-
     - name: Set up JDK 11 for JPF
       uses: actions/setup-java@v3
       with:
