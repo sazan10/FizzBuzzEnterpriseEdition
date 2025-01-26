@@ -35,3 +35,5 @@ jobs:
       with:
         name: traces
         path: './FizzBuzzEnterpriseEdition/FizzBuzzEnterpriseEdition/traces/*'
+    - name: LIst files
+      run: ls -l
