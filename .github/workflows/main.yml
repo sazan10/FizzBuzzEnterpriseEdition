@@ -37,4 +37,5 @@ jobs:
         path: './traces/*'
     - name: LIst files
       run: | 
+        pwd
         ls -l 
